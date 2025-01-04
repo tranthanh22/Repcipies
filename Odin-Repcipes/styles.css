@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body.salad{
+    background: blueviolet;
+    .title {
+        color: yellowgreen;
+    }
+    
+    .title.additions{
+        color: orange;
+    }
+    
+    div, p, li{
+        color: aqua;
+    }
+}
+
+body.grilled_fish{
+    background: yellow;
+    .title {
+        color: red;
+    }
+    .title.additions{
+        color: brown;
+    }
+    div, p, li{
+        color: green;
+    }
+}
+
+body.crispy_fried_chicken{
+    background: greenyellow;
+    .title {
+        color: brown;
+    }
+    .title.additions{
+        color: brown;
+    }
+    div, p, li{
+        color: black;
+    }
+    img {
+        height: 300 !important;
+        width: 300 !important;
+    }
+}
+
+
